@@ -4,13 +4,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+      },
       colors: {
-        pri: '#334D2A',//'#004a35',
-        sec: '#d5e6b1',
-        thi: '#87441f',
+        pri: '#e4f1f7',
+        seg: '#058cfb',
+        ter: '#024882',
+        qua: '#025396',
+        con: '#D93031',
+        tit: '#1c1c1c',
+        tex: '#3d3d3d',
       },
       padding: {
-        '100': '0px 10px',
+        '100': '0px 30px',
         's100': '0px 50px',
         'm100': '0px 100px',
         'l100': '0px 150px',
