@@ -30,13 +30,13 @@ const Vantagens = () => {
     }
   ]
   return (
-    <section className={`${PADDING} flex flex-col font-roboto gap-[20px]`}>
+    <section id='porque' className={`${PADDING} flex flex-col font-roboto gap-[20px]`}>
       <h1 className='text-2xl font-semibold text-tex text-center'>Por que seu negócio precisa de um site próprio?</h1>
-      <div className='flex flex-col gap-[40px]'>
+      <div className='flex flex-col gap-[40px] sm:grid sm:grid-cols-2'>
         {vantagens.map((item, index) => {
           return (
             <div className='flex flex-col gap-[10px] text-center items-center' key={index}>
-              <img className='w-[200px]' src={item.img} alt={item.titulo}/>
+              <img className='h-[200px]' src={item.img} alt={item.titulo}/>
               <h2 className='text-xl font-semibold text-tit'>{item.titulo}</h2>
               <p className='text-tex'>{item.texto}</p>
             </div>

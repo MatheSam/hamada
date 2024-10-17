@@ -41,7 +41,7 @@ const FormEmail = () => {
   };
 
   return (
-    <section className='bg-qua py-[20px]'>
+    <section id='contato' className='bg-qua py-[20px]'>
       <ToastContainer
         position="top-right"
         autoClose={5000}

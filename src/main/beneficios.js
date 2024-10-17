@@ -3,7 +3,7 @@ import { MdSchool, MdSupportAgent, MdTrendingUp } from "react-icons/md";
 import { PADDING } from '../constants';
 
 const Beneficios = () => {
-  const style_icon = 'text-3xl text-qua'
+  const style_icon = 'text-3xl text-qua lg:text-5xl'
 
   const beneficios = [
     {
@@ -22,17 +22,18 @@ const Beneficios = () => {
       texto: 'Seu site será otimizado para SEO e assim possa alcançar os primeiros lugares nos resultados do Google.'
     },
   ]
+
   return (
-    <section className={`${PADDING} flex flex-col gap-[30px]`}>
+    <section id='vantagens' className={`${PADDING} flex flex-col gap-[30px]`}>
       <h1 className='self-center text-con font-semibold text-3xl text-center'><b>Vantagens</b> de <b>fazer seu site</b> ou mostruário virtual com a <b>Hamada</b></h1>
-      <div className='flex flex-col gap-[20px]'>
+      <div className='flex flex-col gap-[20px] sm:grid sm:grid-cols-2 lg:grid-cols-3'>
         {
           beneficios.map((item, index) => {
             return (
-              <div key={index} className='flex flex-col gap-[10px]'>
-                <div className='flex items-center gap-[5px]'>
+              <div key={index} className='flex flex-col gap-[10px] lg:grid lg:grid-rows-2'>
+                <div className='flex items-center gap-[5px] '>
                   <p className=''>{item.icon}</p>
-                  <h3 className='font-semibold text-tit'>{item.titulo}</h3>
+                  <h3 className='font-semibold text-tit lg:text-xl'>{item.titulo}</h3>
                 </div>
                 <p className='text-tex'>{item.texto}</p>
               </div>

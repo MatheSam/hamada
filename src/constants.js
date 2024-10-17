@@ -5,7 +5,7 @@ const ADDRESS = 'R. Des. Westphalen, 290 LOJA D7 - Centro, Curitiba - PR';
 const EMAIL = 'hamadasolucoes@gmail.com';
 const MAPS = 'https://maps.app.goo.gl/HWfc8KpK88BayWVd8';
 
-const PADDING = 'p-100 sm:p-s100 md:p-m100 lg:p-l100 xl:p-x100'
+const PADDING = 'p-100 sm:p-s100 md:p-m100'
 
 
 export { PHONE_NUMBER, WPP_NUMBER, ADDRESS, EMAIL, MAPS, WPP_LINK, PADDING };
