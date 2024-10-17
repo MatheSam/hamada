@@ -4,6 +4,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        pulseColor: {
+          '0%, 100%': { backgroundColor: 'theme(colors.con)', color: 'theme(colors.pri)' }, // Cor normal
+          '50%': { backgroundColor: 'theme(colors.pri)', color: 'theme(colors.con)' }, // Cor de hover
+        },
+      },
+      animation: {
+        pulseColor: 'pulseColor 5s infinite', // Duração da animação
+      },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
       },

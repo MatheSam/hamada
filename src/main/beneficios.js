@@ -24,7 +24,7 @@ const Beneficios = () => {
   ]
 
   return (
-    <section id='vantagens' className={`${PADDING} flex flex-col gap-[30px]`}>
+    <section id='vantagens' className={`${PADDING} flex flex-col gap-[30px] mb-[20px]`}>
       <h1 className='self-center text-con font-semibold text-3xl text-center'><b>Vantagens</b> de <b>fazer seu site</b> ou mostruário virtual com a <b>Hamada</b></h1>
       <div className='flex flex-col gap-[20px] sm:grid sm:grid-cols-2 lg:grid-cols-3'>
         {

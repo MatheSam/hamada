@@ -120,7 +120,7 @@ const Header = () => {
   return (
     <>
       <div className={`h-[80px] ${fixedHeader ? 'block' : 'hidden'}`} />
-      <header className={`${fixedHeader && 'fixed top-0 left-0 w-full z-50 bg-white'} shadow-[0px_8px_12px_-2px_rgba(0,0,0,${fixedHeader ? '0.1' : '0.05'})] py-[5px] transition-all duration-500 ease-in-out`}>
+      <header className={`${fixedHeader && 'fixed top-0 left-0 w-full z-50 bg-white'} shadow-[0px_8px_12px_-2px_rgba(0,0,0,${fixedHeader && '0.1'})] py-[5px] transition-all duration-500 ease-in-out`}>
         <div className={`${PADDING} pt-[10px] flex items-center justify-between gap-[20px]`}>
           <img src={logo} onClick={(e) => handleMenuItemClick(e, '')} alt="Descrição da imagem" className='h-[80px] hover:cursor-pointer' />
           <>

@@ -9,6 +9,7 @@ import Products from './main/products';
 import FloatingButton from './components/floating';
 import Beneficios from './main/beneficios';
 import FormEmail from './components/formEmail';
+import Footer from './main/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,7 +21,8 @@ root.render(
       <Products />
       <FloatingButton />
       <Beneficios />
-      <FormEmail />
     </section>
+    <FormEmail />
+    <Footer />
   </React.StrictMode>
 );
